@@ -1,0 +1,14 @@
+<div class="image-album">
+    <div class="main-image">
+      <img [src]="selectedImage" alt="Main Image" />
+    </div>
+    <div class="thumbnail-images">
+      <img
+        *ngFor="let image of images"
+        [src]="image"
+        alt="Thumbnail"
+        (click)="selectImage(image)"
+        [class.selected]="image === selectedImage"
+      />
+    </div>
+  </div>

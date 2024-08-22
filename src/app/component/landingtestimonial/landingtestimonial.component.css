@@ -1,0 +1,75 @@
+.testimonial-card {
+    border-radius: 24px;
+    background:  #6d745f;
+    padding: 16px;
+    width: 400px;
+    box-sizing: border-box;
+  } 
+
+  .casos-de-exito {
+      margin: 0 auto 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+      box-sizing: border-box;
+  }
+  .casos-dexito {
+    margin: 0 2px 39px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 39.8px;
+    color:  #6d745f;
+  }
+
+   .contents {
+    box-shadow: 0px 8px 24px 0px rgba(229, 69, 69, 0.04);
+    border-radius: 16px;
+    background: #FFFFFF;
+    position: relative;
+    padding: 32px;
+    box-sizing: border-box;
+  }
+    .client-proffesion {
+    overflow-wrap: break-word;
+    color: var(--gray-500, #838E9E);
+  }
+
+  .client-photo{
+   
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  .carousel-indicators {
+      border: 2px solid #000;
+      background-color: #f8f9fa;
+  }
+  .btn-testimonial{
+      background-color: #dddddd;
+      border: none;
+
+
+          border-radius: 8.1px;
+
+          margin: 16.3px;
+          width: 16.3px;
+          height: 16.3px;
+
+    }
+
+
+.comilllas {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.container-photo{
+    width: 100px
+}

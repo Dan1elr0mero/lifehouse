@@ -1,0 +1,28 @@
+.image-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-image img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .thumbnail-images img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .thumbnail-images img.selected {
+    border-color: #eabd0d;
+  }

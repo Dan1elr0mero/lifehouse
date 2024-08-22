@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #6d745f;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f6f8f2 !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #eabd0d !important;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+.banner-area {
+  padding: 400px 0 350px;
+  background-color: #b0b0b0;
+  background-image: url("../../../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner-area {
+    padding: 280px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-area {
+    padding: 250px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .banner-area {
+    padding: 200px 0;
+  }
+}
