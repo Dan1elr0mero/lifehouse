@@ -1,75 +1,56 @@
-.testimonial-card {
-    border-radius: 24px;
-    background:  #6d745f;
-    padding: 16px;
-    width: 400px;
-    box-sizing: border-box;
-  } 
-
-  .casos-de-exito {
-      margin: 0 auto 32px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: fit-content;
-      box-sizing: border-box;
-  }
-  .casos-dexito {
-    margin: 0 2px 39px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 39.8px;
-    color:  #6d745f;
-  }
-
-   .contents {
-    box-shadow: 0px 8px 24px 0px rgba(229, 69, 69, 0.04);
-    border-radius: 16px;
-    background: #FFFFFF;
-    position: relative;
-    padding: 32px;
-    box-sizing: border-box;
-  }
-    .client-proffesion {
-    overflow-wrap: break-word;
-    color: var(--gray-500, #838E9E);
-  }
-
-  .client-photo{
-   
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    margin-right: 30px;
-  }
-  .carousel-indicators {
-      border: 2px solid #000;
-      background-color: #f8f9fa;
-  }
-  .btn-testimonial{
-      background-color: #dddddd;
-      border: none;
-
-
-          border-radius: 8.1px;
-
-          margin: 16.3px;
-          width: 16.3px;
-          height: 16.3px;
-
-    }
-
-
-.comilllas {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: contain;
+.testimonial-section {
+  background-color: #6D745F; /* Deep Olive */
+  color: white;
+  padding: 4rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
-.container-photo{
-    width: 100px
+
+.testimonial-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-section h2 {
+  font-family: 'Cinzel', serif;
+  color: #EABD0D; /* Gold */
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.testimonial-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #EABD0D;
+}
+
+blockquote {
+  font-size: 1rem;
+  line-height: 1.6;
+  position: relative;
+}
+
+blockquote p {
+  margin: 0;
+  font-style: italic;
+}
+
+blockquote footer {
+  margin-top: 1rem;
+  color: #EABD0D;
+  font-weight: bold;
+  font-size: 0.95rem;
 }

@@ -1,45 +1,48 @@
-.navbar {
-  background-color: #6d745f;
+/* Top Bar */
+.top-bar {
+  background-color: #6D745F; /* Deep Olive */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
 }
 
-.navbar-brand,
-.nav-link {
-  color: #f6f8f2 !important;
+.brand {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
 }
 
-.navbar-brand:hover,
-.nav-link:hover {
-  color: #eabd0d !important;
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
 }
 
-.logo {
-  height: 40px;
-  width: auto;
-}
-.banner-area {
-  padding: 400px 0 350px;
-  background-color: #b0b0b0;
-  background-image: url("../../../assets/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
+.contact .material-icons {
+  font-size: 18px;
+  vertical-align: middle;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .banner-area {
-    padding: 280px 0;
-  }
+/* Main Navigation Bar */
+.main-nav {
+  background-color: #EABD0D; /* Gold */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem 0;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .banner-area {
-    padding: 250px 0;
-  }
+.main-nav a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: opacity 0.3s;
 }
 
-@media (max-width: 575.98px) {
-  .banner-area {
-    padding: 200px 0;
-  }
+.main-nav a:hover {
+  opacity: 0.8;
 }

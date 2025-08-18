@@ -1,6 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400&display=swap');
 
-body {
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
+@layer base {
+  :root {
+    --background: #e2d295;
+    --foreground: 36 45% 15%;
+    --primary: #ba9e33;
+    --primary-foreground: 36 45% 11%;
+    --secondary: 40 35% 77%;
+    --secondary-foreground: 36 45% 25%;
+    --accent: 36 64% 57%;
+    --accent-foreground: 36 72% 17%;
+    --destructive: 0 84% 37%;
+    --destructive-foreground: 0 0% 98%;
+    --muted: 36 33% 75%;
+    --muted-foreground: 36 45% 25%;
+    --card: 36 46% 82%;
+    --card-foreground: 36 45% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --border: 36 45% 60%;
+    --input: 36 45% 60%;
+    --ring: 36 45% 30%;
+    --radius: 0rem;
+    --life-primary: #Eabd0d;
+    --life-secondary: #6d745f;
+    --life-accent: #ba9e33;
+    --life-destructive: #ba9e33;
+  }
+}
+.bg-primary1{
+  background-color: var(--life-secondary);
+}
+
+.title-font h1 h2 h3 h4 h5 h6 {
+  font-family: 'Cinzel', serif;
+}
+
+.subtitle-font p{
+  font-family: 'Montserrat', sans-serif;
 }

@@ -1,0 +1,76 @@
+.services-section {
+  background-color: #2E2C2F; /* Deep gray for contrast */
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-header h2 {
+  color: #EABD0D; /* Gold */
+  font-family: 'Cinzel', serif;
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+}
+
+.section-header p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.service-card {
+  position: relative;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  background-color: #6D745F; /* Deep Olive overlay */
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.overlay p {
+  font-size: 0.85rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.overlay button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.overlay button:hover {
+  background-color: #EABD0D;
+  color: #2E2C2F;
+  border-color: #EABD0D;
+}
